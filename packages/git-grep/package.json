@@ -1,0 +1,30 @@
+{
+  "name": "git-grep",
+  "main": "./lib/git-grep",
+  "version": "0.7.0",
+  "description": "`git grep` in atom editor",
+  "activationEvents": [
+    "git-grep:grep"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mizchi/atom-git-grep"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# git-grep package\n\n`git grep` in atom editor.\n\n![](http://i.gyazo.com/efa20ec320ff27a26c98cf93f60f9c60.png)\n\n## Install\n\n```\napm install git-grep\n```\n\n## How to use\n\nSet your keybind.cson as you like.\n\n```coffee\n'.workspace':\n  'cmd-k cmd-g': 'git-grep:grep' # default\n```\n\nRoot of `git grep` is always current root of workspace. \n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/mizchi/atom-git-grep/issues"
+  },
+  "homepage": "https://github.com/mizchi/atom-git-grep",
+  "_id": "git-grep@0.7.0",
+  "dist": {
+    "shasum": "cfc99e3f357beeb1513c7db766f012417d4c73c1"
+  },
+  "_resolved": "/var/folders/3x/6qywvl3j7f3gnc8gq4s5p_brlr05mw/T/d-114107-93457-kz2kav/package.tgz",
+  "_from": "/var/folders/3x/6qywvl3j7f3gnc8gq4s5p_brlr05mw/T/d-114107-93457-kz2kav/package.tgz"
+}

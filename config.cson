@@ -1,0 +1,25 @@
+'editor':
+  'fontSize': 15
+'core':
+  'themes': [
+    'seti-ui'
+    'seti-syntax'
+  ]
+  'disabledPackages': [
+    'linter'
+  ]
+'exception-reporting':
+  'userId': '1f333c5b-242e-8842-f918-30155069a431'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'e376e5419c2411b9ad2b77884fb86e64c8354e5b'
+'autosave': {}
+'emacs-mode':
+  'hideTabs': false
+  'hideSidebar': false
+  'useEmacsCursor': true
+  'useFuzzyFileFinder': false
+  'useFuzzyBufferFinder': false
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
